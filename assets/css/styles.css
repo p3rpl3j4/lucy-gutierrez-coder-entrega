@@ -1,0 +1,43 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.footer__social{
+  display: flex;
+  padding-left: 10px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.main__videocontainer {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%; 
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 80%;
+  height: 80%;
+}
+.main__form{
+  display: flex;
+  flex-direction: row;
+}
