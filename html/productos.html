@@ -5,59 +5,59 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="../assets/images/favicon.jpg">
-        <link rel="stylesheet" href="../assets/css/styles.css">
+        <link rel="stylesheet" href="../css/styles.css">
 	    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
         <title>Vivero Esmeralda</title>
     </head>
-    <body class="container-fluid">
-        <div class="rows">
-            <img src="../assets/images/banner.jpg" class="img-fluid "alt="">
-        </div>
-  
-        <nav class="navbar navbar-expand-lg bg-light">
-            <div class="container-fluid">
-                
-                <div class="navbar__logo">
-                    <a href="../index.html">
-                        <div data-aos="fade-left">
-                            <img src="../assets/images/logo.jpg" alt="" width="30px">
-                        </div>
-                    </a>  
-                </div>
-                    
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" href="../html/productos.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/novedades.html">Novedades</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../html/contactos.html">Contactos</a>
-                        </li>
-                    </ul>
-              </div>
+    <body>
+        <header class="container-fluid">
+            <div class="row">
+                <img src="../assets/images/banner.jpg" class="img-fluid "alt="Vivero Esmeralda banner">
             </div>
-        </nav>  
-        <main class="main">
-            <div class="main__title">
-                <h3 class="fw-bolder p-3">Nuestros productos</h3>
+      
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">              
+                    <div class="navbar__logo">
+                        <a href="../index.html">
+                            <img data-aos="fade-left" src="../assets/images/logo.jpg" alt="Vivero Esmeralda logo" width="40px">
+                        </a>  
+                    </div>
+                        
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+    
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  href="../html/nosotros.html">Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="../html/productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/novedades.html">Novedades</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../html/contactos.html">Contactos</a>
+                            </li>
+                        </ul>
+                  </div>
+                </div>
+            </nav>            
+        </header>
+        
+        <main class="container-fluid">
+            <div>
+                <h2 class="fw-bolder p-3">Nuestros productos</h2>
             </div>
             <div class="cards mt-3 mb-4"> 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/macetas-ecologicas.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/macetas-ecologicas.jpg" alt="Vivero Esmeralda macetas ecológicas">
                     <div class="card-body text-center">
                       <h5 class="card-title">Macetas ecológicas</h5>
                       <p class="card-text">Porque cuidamos el medio ambiente te ofrecemos alternativas</p>
@@ -66,7 +66,7 @@
                 </div>
 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/macetas-de-disenio.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/macetas-de-disenio.jpg" alt="Vivero Esmeralda macetas de disenio">
                     <div class="card-body text-center">
                         <h5 class="card-title">Macetas de diseño</h5>
                         <p class="card-text">Todo tipo de macetas para el hogar, desde plásticas a artesanales</p>
@@ -75,7 +75,7 @@
                 </div>
 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/macetas-metalicas.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/macetas-metalicas.jpg" alt="Vivero Esmeralda macetas metalicas">
                     <div class="card-body text-center">
                         <h5 class="card-title">Macetas Metálicas</h5>
                         <p class="card-text">Para darle un toque industrial o elegante a tu hogar, todo en metales</p>
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/macetas-vintage.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/macetas-vintage.jpg" alt="Vivero Esmeralda macetas vintage">
                     <div class="card-body text-center">
                         <h5 class="card-title">Macetas vintage</h5>
                         <p class="card-text">Para darle estilo a tus rincones favoritos, te ofrecemos macetas vintage</p>
@@ -93,7 +93,7 @@
                 </div>
 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/estantes-portamacetas.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/estantes-portamacetas.jpg" alt="Vivero Esmeralda estantes y portamacetas">
                     <div class="card-body text-center">
                         <h5 class="card-title">Estantes y portamacetas</h5>
                         <p class="card-text">Si querés orden y belleza tenemos la solución para tu espacio verde</p>
@@ -102,7 +102,7 @@
                 </div>
 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/semillas-plantines.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/semillas-plantines.jpg" alt="Vivero Esmeralda semillas plantines">
                     <div class="card-body text-center">
                         <h5 class="card-title">Semillas y Plantines</h5>
                         <p class="card-text">Porque sembrar es nuestro futuro, te acercamos plantines y semillas</p>
@@ -111,7 +111,7 @@
                 </div>
 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/cactus-y-sucus.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/cactus-y-sucus.jpg" alt="Vivero Esmeralda cactus suculentas">
                     <div class="card-body text-center">
                         <h5 class="card-title">Cactus y cuculentas</h5>
                         <p class="card-text">Para que tu hogar luzca vivaz y calido, tenemos cactus y sucus para vos</p>
@@ -120,7 +120,7 @@
                 </div>
 
                 <div class="card mt-3" style="width: 18rem;">
-                    <img class="card-img-top" src="../assets/images/flores-de-exterior.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="../assets/images/flores-de-exterior.jpg" alt="Vivero Esmeralda flores de exterior">
                     <div class="card-body text-center">
                         <h5 class="card-title ">Flores de exterior</h5>
                         <p class="card-text">Renova la energia y el color de tus espacios exteriores con flores</p>
@@ -130,22 +130,24 @@
             </div>
         </main>      
       
-        <footer class="footer">
-            <div class="footer__social">
-                <div class="footer__social--red">
-                    <a href="https://www.instagram.com"><img src="../assets/images/red_instagram.png" alt=""width="28px"></a>
+ 
+        <footer class="footer container-fluid d-flex justify-content-center">
+            <div class="row  mt-10 pt-10">
+                <div class="col mt-10">
+                    <a href="https://www.instagram.com"><img src="../assets/images/red_instagram.png" alt="instagram" width="28px"></a>
                 </div>
-                <div class="footer__social--red">
-                    <a href="https://www.facebook.com"><img src="../assets/images/red_facebook.png" alt=""width="28px"></a>             
+                <div class="col">
+                    <a href="https://www.facebook.com"><img src="../assets/images/red_facebook.png" alt="facebook" width="28px"></a>             
                 </div>
-                <div class="footer__social--red">
-                    <a href="https://www.facebook.com"><img src="../assets/images/red_whatsapp.png" alt=""width="28px"></a>
+                <div class="col">
+                    <a href="https://www.facebook.com"><img src="../assets/images/red_whatsapp.png" alt="whatsapp" width="28px"></a>
                 </div>
-                <div class="footer__social--red">
-                    <a href="https://www.youtube.com"><img src="../assets/images/red_youtube.png" alt=""width="28px"></a>
+                <div class="col">
+                    <a href="https://www.youtube.com"><img src="../assets/images/red_youtube.png" alt="youtube" width="28px"></a>
                 </div>
             </div> 
-        </footer>        
+        </footer>
+
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  	    <script>
  		    AOS.init();
