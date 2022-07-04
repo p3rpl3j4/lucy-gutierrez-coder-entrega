@@ -1,0 +1,16 @@
+.mi-btn{
+    padding: map-get($mi-btn, padding);
+    border-radius: map-get($mi-btn, radius);
+    text-decoration: map-get($mi-btn, text-decoration);
+    color: map-get($mi-btn, color )
+}
+    
+.btn-comprar{
+    @extend .mi-btn;
+    background-color: #0b5ed7;
+
+    &:hover {
+        background-color: #0d6efd;
+        color: white;
+      }
+}
