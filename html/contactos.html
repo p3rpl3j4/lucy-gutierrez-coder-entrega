@@ -17,54 +17,57 @@
     </head>
     <body>
         <header class="container-fluid">
+            <!-- Banner  -->
             <div class="banner" style="background-image:url('../assets/images/banner.svg')">
                 <h1>Vivero Esmeralda</h1>
             </div>
-      
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">              
-                    <div class="navbar__logo">
-                        <a href="../index.html">
-                            <img data-aos="fade-left" src="../assets/images/logo.jpg" alt="Vivero Esmeralda logo" width="40px">
-                        </a>  
-                    </div>
-                        
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-    
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link"  href="../html/nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../html/productos.html">Productos</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="../html/novedades.html">Novedades</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link active" href="../html/contactos.html">Contactos</a>
-                            </li>
-                        </ul>
-                  </div>
-                </div>
-            </nav>            
+
+             <!-- Navbar con logo -->
+             <div class="row">
+                <div class="col">      
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">              
+                            <div class="navbar__logo">
+                                <a href="../index.html">
+                                    <img data-aos="fade-left" src="../assets/images/logo.jpg" alt="Vivero Esmeralda logo" width="40px">
+                                </a>  
+                            </div>
+                                
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+            
+                            <div class="collapse navbar-collapse justify-content-end" id="navbarNav" >
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link"  href="../html/nosotros.html">Nosotros</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../html/productos.html">Productos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="../html/novedades.html">Novedades</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" href="../html/contactos.html">Contactos</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>     
+                </div>    
+            </div>       
         </header>
  
         <main class="container-fluid">    
+            <h2 class="fw-bolder p-3">Contactanos</h2>
             <div class="row">
-                <div class="row">
-                    <h2 class="fw-bolder p-3">Contactanos</h2>
-                </div>
-                
-                <div class="d-flex justify-content-around flex-column flex-sm-row flex-md-row">
-                    <div class="col border border-success rounded border-10 m-4 p-3">
-                        <p class="border-10 m-3">Para ventas mayoristas comunicate con nosotros por correo electrónico y nos pondremos en contacto.</p>
+                <div class="d-flex justify-content-between flex-column flex-sm-row flex-md-row">
+                    <div class="col border border-success rounded border-10 p-3 caja">
+                        <p class="border-10 m-3">Para ventas por mayor escribenos por correo electrónico. Nuestros asesores se contactarán contigo para atender tus necesidades.</p>
 
                         <div class="m-3">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop" viewBox="0 0 16 16">
@@ -92,21 +95,21 @@
                             <p class="ml-3">viveroesmeralda@gmail.com</p>               
                         </div>
                     </div>
-                    
-                    <div class="col border border-success rounded border-10 m-4 p-3">
-                        <div class="m-3 col-11">
+            
+                    <div class="col border border-success rounded border-10 p-3 caja">
+                        <div class="m-3 col">
                             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
                             <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su nombre">
                         </div>
 
-                        <div class="m-3 col-11">
+                        <div class="m-3 col">
                             <label for="exampleFormControlInput1" class="form-label">Correo Electrónico</label>
                             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
                         </div>
 
-                        <div class="m-3 col-11">
+                        <div class="m-3 col">
                             <label for="exampleFormControlTextarea1" class="form-label">Ingrese su comentario</label>
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Escriba aqui"></textarea>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Escriba aquí"></textarea>
                         </div>
                         <a href="#" class="m-3 btn-comprar btn-primary">Enviar</a>
                     </div>
@@ -115,21 +118,22 @@
         </main>
 
         <footer class="footer container-fluid d-flex justify-content-center">
-            <div class="row  mt-10 pt-10">
-                <div class="col mt-10">
+            <div class="row">
+                <div class="col-3">
                     <a href="https://www.instagram.com"><img src="../assets/images/red_instagram.png" alt="instagram" width="28px"></a>
                 </div>
-                <div class="col">
+                <div class="col-3">
                     <a href="https://www.facebook.com"><img src="../assets/images/red_facebook.png" alt="facebook" width="28px"></a>             
                 </div>
-                <div class="col">
+                <div class="col-3">
                     <a href="https://www.facebook.com"><img src="../assets/images/red_whatsapp.png" alt="whatsapp" width="28px"></a>
                 </div>
-                <div class="col">
+                <div class="col-3">
                     <a href="https://www.youtube.com"><img src="../assets/images/red_youtube.png" alt="youtube" width="28px"></a>
                 </div>
             </div> 
-        </footer>  
+        </footer>
+
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
  	    <script>
  		    AOS.init();
